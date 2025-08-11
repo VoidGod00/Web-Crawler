@@ -37,7 +37,7 @@ public class Webcrawler {
     }
 
     public static void Submittask(URLstore urlstore, URLfetcher urlfetcher, int currdepth, int maxDepth) {
-        executorservice.submit(new Crawlertask(urlstore,urlfetcher,currdepth,maxDepth,phaser));
+        executorservice.submit(new Crawlertask(urlstore,urlfetcher,maxDepth,currdepth,phaser));
 
     }
 }
