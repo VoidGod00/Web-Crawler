@@ -65,7 +65,7 @@ org/example/
 
 **Environment**: Make sure you have a Java Development Kit (JDK) installed on your machine. You can check your JDK version by running `java -version` in the command line.
 
-**Build and Run**: Run the program by downloading 'Wen_crawler.jar' in the app folder and give input of about depth, how many thread to use and the URL of the targeted website.
+**Build and Run**: Run the program by downloading 'Web_crawler.jar' in the app folder and give input of about depth, how many thread to use and the URL of the targeted website.
 
 
 🧪 Testing Instructions
