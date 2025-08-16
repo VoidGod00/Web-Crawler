@@ -78,16 +78,9 @@ To test the crawler, follow these steps:
 📸 Screenshots
 ================================
 
-[Insert screenshots of the crawler in action, or use placeholders if needed]
 
-📦 API Reference
-================================
+<img width="2560" height="1440" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/dadefe2f-c64a-4a28-905f-d2fec387e4fd" />
 
-The crawler exposes a simple REST API for crawling and retrieving crawled data. You can access the API by sending HTTP requests to `http://localhost:8080`.
-
-* **GET /crawl**: Starts the crawling process.
-* **GET /crawl-status**: Returns the current crawling status.
-* **GET /crawl-data**: Returns the crawled data in JSON format.
 
 👤 Author
 ================================
