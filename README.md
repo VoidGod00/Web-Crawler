@@ -59,23 +59,21 @@ org/example/
 ⚙️ How to Run
 ================================
 
-**Setup**: Install Java and Maven on your machine. Download the project from GitHub and extract it to a directory of your choice.
+**Setup**: Install Java IDE of your choice and Maven on your machine. Download the project from GitHub and extract it to a directory of your choice.
 
 **Environment**: Make sure you have a Java Development Kit (JDK) installed on your machine. You can check your JDK version by running `java -version` in the command line.
 
-**Build**: Run the command `mvn package` in the project directory to build the project.
+**Build and Run**: Run the program from 'Webcrawler.java' in the project directory to build and run the project.
 
-**Deploy**: Run the command `java -jar target/web-crawler.jar` to start the crawler.
 
 🧪 Testing Instructions
 ================================
 
 To test the crawler, follow these steps:
 
-1. Start the crawler by running the command `java -jar target/web-crawler.jar`.
-2. Open a web browser and navigate to the URL `http://localhost:8080/crawl`. This will start the crawling process.
-3. Monitor the crawling process by checking the console output. You should see URLs being crawled and links being extracted.
-4. Once the crawling process is complete, you can stop the crawler by pressing `Ctrl+C` in the command line.
+1. Start the crawler by running 'Webcrawler.java' file and give any website URLs to test the program.
+2. Monitor the crawling process by checking the console output. You should see URLs being crawled and links being extracted.
+3. Once the crawling process is complete, you can stop the crawler by pressing `Ctrl+C` in the command line.
 
 📸 Screenshots
 ================================
