@@ -11,6 +11,8 @@ The WebCrawler project is a sample implementation of a web crawler using Java, S
 
 The project is designed to be modular, with separate classes for URL fetching, URL storing, and crawling. This makes it easy to extend and modify the crawler for specific use cases.
 
+this github repository contain the source code and the executable file named 'web_crawler.jar' in the app folder that can be used to run this project as a standalone program.
+
 ✨ Features
 ================================
 
@@ -59,11 +61,11 @@ org/example/
 ⚙️ How to Run
 ================================
 
-**Setup**: Install Java IDE of your choice and Maven on your machine. Download the project from GitHub and extract it to a directory of your choice.
+**Setup**: Install Java and Maven on your machine. Download the project from GitHub and extract it to a directory of your choice.
 
 **Environment**: Make sure you have a Java Development Kit (JDK) installed on your machine. You can check your JDK version by running `java -version` in the command line.
 
-**Build and Run**: Run the program from 'Webcrawler.java' in the project directory to build and run the project.
+**Build and Run**: Run the program by downloading 'Wen_crawler.jar' in the app folder and give input of about depth, how many thread to use and the URL of the targeted website.
 
 
 🧪 Testing Instructions
@@ -71,7 +73,7 @@ org/example/
 
 To test the crawler, follow these steps:
 
-1. Start the crawler by running 'Webcrawler.java' file and give any website URLs to test the program.
+1. Start the crawler by running 'Web_crawler.jar' file and give any website URLs to test the program.
 2. Monitor the crawling process by checking the console output. You should see URLs being crawled and links being extracted.
 3. Once the crawling process is complete, you can stop the crawler by pressing `Ctrl+C` in the command line.
 
